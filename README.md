@@ -7,4 +7,5 @@ Work completed as a part of the Data Science Project course @ UVA <br>
 Dataset sourced from: `https://www.kaggle.com/datasets/priyamchoksi/rotten-tomato-movie-reviews-1-44m-rows`
 # Section 1
 software used: Google Colab
+
 Add-on Packages needed: pandas, matplotlib.pyplot, html, re, seaborn, nltk, nltk.sentiment.vader import SentimentIntensityAnalyzer, sklearn
