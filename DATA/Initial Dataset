@@ -1,0 +1,4 @@
+Process to Obtain the Dataset: 
+We obtained our dataset from Kaggle.
+To access the dataset follow this link: https://www.kaggle.com/datasets/priyamchoksi/rotten-tomato-movie-reviews-1-44m-rows
+Once downloading the dataset, rename the csv file to “RT_top_movies_premium”
