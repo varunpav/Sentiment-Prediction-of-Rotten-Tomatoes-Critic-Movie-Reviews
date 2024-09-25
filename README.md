@@ -9,3 +9,5 @@ Dataset sourced from: `https://www.kaggle.com/datasets/priyamchoksi/rotten-tomat
 software used: Google Colab
 
 Add-on Packages needed: pandas, matplotlib.pyplot, html, re, seaborn, nltk, nltk.sentiment.vader import SentimentIntensityAnalyzer, sklearn
+
+# Section 3
