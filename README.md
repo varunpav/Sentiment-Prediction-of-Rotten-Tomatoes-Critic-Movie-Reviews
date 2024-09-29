@@ -10,6 +10,11 @@ software used: Google Colab
 
 Add-on Packages needed: pandas, matplotlib.pyplot, html, re, seaborn, nltk, nltk.sentiment.vader import SentimentIntensityAnalyzer, sklearn
 
+Platforms: Windows, Mac
+
+# Section 2
+
+
 # Section 3
 In order to reproduce the results of our study first open the link at the top of this file and download the dataset of Rotten Tomatoes movie reviews.
 
