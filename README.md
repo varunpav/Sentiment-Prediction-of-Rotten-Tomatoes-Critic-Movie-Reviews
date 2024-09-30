@@ -21,6 +21,8 @@ The output folder contains multiple visuals and result tables. This include heat
 
 The Scripts folder includes a file of our source code used to obtain all of the results we observed throughout this project.
 
+The License file is a simple copyright license.
+
 # Section 3
 In order to reproduce the results of our study first open the link at the top of this file and download the dataset of Rotten Tomatoes movie reviews.
 
