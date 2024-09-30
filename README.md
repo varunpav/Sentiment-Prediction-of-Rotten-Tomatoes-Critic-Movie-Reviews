@@ -17,7 +17,7 @@ Our project folder is composed of a Data folder an Output folder a Scripts file 
 
 The Data folder contains a file showing where to find the dataset used for this project. There is also a data appendix showing statistics for all of the variables in the dataframe that we used to complete this project.
 
-The output folder contains multiple visuals and result tables. This include
+The output folder contains multiple visuals and result tables. This include heat maps of the relationship between LLM sentiment and Score sentiment and tables showing the the Chi-Squared statistics for the top 10 
 
 # Section 3
 In order to reproduce the results of our study first open the link at the top of this file and download the dataset of Rotten Tomatoes movie reviews.
