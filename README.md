@@ -13,7 +13,9 @@ Add-on Packages needed: pandas, matplotlib.pyplot, html, re, seaborn, nltk, nltk
 Platforms: Windows, Mac
 
 # Section 2
+Our project folder is composed of a Data folder an Output folder a Scripts file a License and this README.md.
 
+The Data folder contains a file showing where to find the dataset used for this project. There is also a data appendix 
 
 # Section 3
 In order to reproduce the results of our study first open the link at the top of this file and download the dataset of Rotten Tomatoes movie reviews.
