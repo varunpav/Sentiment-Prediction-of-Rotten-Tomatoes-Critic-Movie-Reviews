@@ -1,0 +1,25 @@
+Top 10 influential words in positive reviews:
+          word  score_diff
+324  franchise  237.835492
+584    musical  156.863422
+829     studio   98.632998
+380      heart   82.486457
+892    totally   77.047396
+513       long   74.308225
+811    started   73.382071
+61       basic   71.454002
+719       rock   70.894113
+216      drags   69.852080
+
+Top 10 influential words in negative reviews:
+       word  score_diff
+300    film -120.587182
+578   movie -104.662666
+500    like  -76.772265
+456    just  -51.857326
+211   doesn  -37.789280
+820   story  -33.595331
+352    good  -32.525313
+506  little  -32.242453
+883    time  -30.898716
+71   better  -26.413541
