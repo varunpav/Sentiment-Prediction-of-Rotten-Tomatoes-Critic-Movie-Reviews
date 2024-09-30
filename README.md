@@ -1,18 +1,18 @@
-# DS-4002-Project-1
+# Sentiment Prediction of Rotten Tomatoes Critic Movie Reviews
 Rotten Tomatoes Movie Review text data analysis
 
 Group Members: Erin Moulton, Hank Dickerson, Varun Pavuloori <br>
 
 Work completed as a part of the Data Science Project course @ UVA <br>
 Dataset sourced from: `https://www.kaggle.com/datasets/priyamchoksi/rotten-tomato-movie-reviews-1-44m-rows`
-# Section 1
+# Section 1: software and platform section
 software used: Google Colab
 
 Add-on Packages needed: pandas, matplotlib.pyplot, html, re, seaborn, nltk, nltk.sentiment.vader import SentimentIntensityAnalyzer, sklearn
 
 Platforms: Windows, Mac
 
-# Section 2
+# Section 2: Project folder contents
 Our project folder is composed of a Data folder an Output folder a Scripts folder a License and this README.md.
 
 The Data folder contains a file showing where to find the dataset used for this project. There is also a data appendix showing statistics for all of the variables in the dataframe that we used to complete this project.
@@ -23,7 +23,7 @@ The Scripts folder includes a file of our source code used to obtain all of the 
 
 The License file is a simple copyright license.
 
-# Section 3
+# Section 3: Instructions to replicate our results
 In order to reproduce the results of our study first open the link at the top of this file and download the dataset of Rotten Tomatoes movie reviews.
 
 Using google colab read/load in the csv file of the dataset.
@@ -171,3 +171,19 @@ Train that model on the training data set.
 Use the trained model to make predictions on the sentiment of the test set and set that equal to a new variable (ex. y_pred)
 
 Calculate the accuracy, precision, recall, and F1-score of the model.
+
+
+
+#References
+
+P. Choksi, “Rotten Tomatoes Movie Reviews - 1.44M rows,” Kaggle.com, 2024. 
+https://www.kaggle.com/datasets/priyamchoksi/rotten-tomato-movie-reviews-1-44m-rows (accessed Sep. 22, 2024).
+
+Jablonski, J. (2023, October 21). Natural language processing with python’s NLTK package. Real Python. 
+https://realpython.com/nltk-nlp-python/ 
+
+Welcome to Vadersentiment’s documentation! VaderSentiment 3.3.1 documentation. (n.d.-b). 
+https://vadersentiment.readthedocs.io/en/latest/ 
+
+Pipelines. Hugging Face Documentation. (n.d.) 
+https://huggingface.co/docs/transformers/en/main_classes/pipelines
