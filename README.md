@@ -132,30 +132,34 @@ Next we train our own model.
 
 From sklearn.model_selection import train_test_split.
 
-From sklearn.svm import SVC.
+From sklearn.feature_selection import chi2.
 
-From sklearn.ensemble import RandomForestClassifier.
+Create a variable X which contains the movie review.
 
-From sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report.
+Create a variable y which contains the llm sentiment.
 
-From sklearn.feature_extraction.text import TfidfVectorizer.
-
-Create a variabel, X, equal to the movie review from the dataframe.
-
-Create a variable, Y, equal to the original sentiment from the dataframe.
-
-Split the data into 80 percent training and 20 percent test sets. (Use the random_state parameter for reproducibility)
+Split the data into 80 percent training data and 20 percent test data.
 
 Initialize a TfidfVectorizer to convert the reviews into TF-IDF features.
 
-Apply fit_transform to the training data and transform to the test data.
+Fit and Transform the vectorizer on the training and the test data.
 
-Initialize two classification models (Support Vector Machine and Random Forest).
+Perform a Chi Squared test to test the importance of the TF-IDF features (words) in relation to the reviews sentiment.
 
-Create an empty list for the results.
+Create a dataframe that includes the feature along with its respective Chi-squared statistic and p-value.
 
-Train each model on the training set and use the test set to make predictions.
+Arrange the new dataframe in descending order based on the Chi-squared statistic.
 
-Store the accuracy, precision, recall, and F1-score for each model in the results list.
+Display the top 10 words.
 
-Display the best model based on these metrics.
+From sklearn.linear_model import LogisticRegression.
+
+From sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report.
+
+Initialize a Logistic Regression model.
+
+Train that model on the training data set.
+
+Use the trained model to make predictions on the sentiment of the test set and set that equal to a new variable (ex. y_pred)
+
+Calculate the accuracy, precision, recall, and F1-score of the model.
