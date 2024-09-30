@@ -174,7 +174,7 @@ Calculate the accuracy, precision, recall, and F1-score of the model.
 
 
 
-#References
+# References
 
 P. Choksi, “Rotten Tomatoes Movie Reviews - 1.44M rows,” Kaggle.com, 2024. 
 https://www.kaggle.com/datasets/priyamchoksi/rotten-tomato-movie-reviews-1-44m-rows (accessed Sep. 22, 2024).
