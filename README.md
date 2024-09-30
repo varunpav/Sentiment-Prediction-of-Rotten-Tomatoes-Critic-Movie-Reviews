@@ -5,10 +5,10 @@ Group Members: Erin Moulton, Hank Dickerson, Varun Pavuloori <br>
 
 Work completed as a part of the Data Science Project course @ UVA <br>
 Dataset sourced from: `https://www.kaggle.com/datasets/priyamchoksi/rotten-tomato-movie-reviews-1-44m-rows`
-# Section 1: software and platform section
-software used: Google Colab
+# Section 1: Software and platform section
+Software used: Google Colab, Python
 
-Add-on Packages needed: pandas, matplotlib.pyplot, html, re, seaborn, nltk, nltk.sentiment.vader import SentimentIntensityAnalyzer, sklearn
+Add-on Packages needed: pandas, matplotlib.pyplot, html, re, seaborn, nltk, nltk.sentiment.vader, SentimentIntensityAnalyzer, sklearn
 
 Platforms: Windows, Mac
 
